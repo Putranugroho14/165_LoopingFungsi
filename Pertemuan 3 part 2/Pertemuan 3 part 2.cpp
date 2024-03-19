@@ -10,4 +10,12 @@ int main()
 
 	cout << "Nilai X awal : " << x << endl;
 
-	
+	while (x > 4)
+	{
+		cout << "Perulangan While" << endl;
+		x = rand() % 10;
+
+		cout << "Nilai X : " << x << endl;
+	}
+
+}
