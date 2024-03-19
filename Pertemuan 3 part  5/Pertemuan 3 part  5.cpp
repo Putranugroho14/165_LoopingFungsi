@@ -16,3 +16,9 @@ void display() {
 	cout << "luas persegi : " << hitungluas() << endl;
 }
 
+int main()
+{
+	inputdata();
+	hitungluas();
+	display();
+}
