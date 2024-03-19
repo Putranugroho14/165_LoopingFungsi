@@ -12,3 +12,7 @@ void inputdata() {
 int hitungluas() {
 	return sisi * sisi;
 }
+void display() {
+	cout << "luas persegi : " << hitungluas() << endl;
+}
+
