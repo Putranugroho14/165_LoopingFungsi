@@ -8,3 +8,7 @@ void inputdata() {
 	cout << " Masukan Nilai sisi : ";
 	cin >> sisi;
 }
+
+int hitungluas() {
+	return sisi * sisi;
+}
